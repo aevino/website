@@ -11,8 +11,8 @@ const Stats = () => {
               src="/images/stats/image.avif" // Replace with actual path
               alt="People working on laptops"
               className="w-full rounded-xl object-cover shadow-lg"
-              width={100}
-              height={100}
+              width={1000}
+              height={1000}
             />
           </div>
 
