@@ -16,7 +16,7 @@ const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
   });
 
   // Send POST request with form-encoded body
-  fetch("/", {
+  fetch("/__forms.html", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formObject).toString(),
@@ -45,12 +45,7 @@ const Contact = () => {
                 us? Let’s talk!
               </h2>
               <br />
-              <form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                onSubmit={handleSubmit}
-              >
+              <form name="contact" onSubmit={handleSubmit}>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -126,11 +121,6 @@ const Contact = () => {
                     </button>
                   </div>
                 </div>
-                <input
-                  type="hidden"
-                  name="aevion-website-leads"
-                  value="contact"
-                />
               </form>
             </div>
           </div>
