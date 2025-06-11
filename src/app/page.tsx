@@ -11,7 +11,7 @@ import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
-
+import AnimatedSection from "@/components/animatedSection";
 export const metadata: Metadata = {
   title: "Aevino | Tech Development Company",
   description:
@@ -23,19 +23,35 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Hero />
-      <Features />
-      <Stats />
-      <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-
-      <Testimonials />
+      <AnimatedSection>
+        <Hero />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Features />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Stats />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Video />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Brands />
+      </AnimatedSection>
+      <AnimatedSection>
+        <AboutSectionOne />
+      </AnimatedSection>
+      <AnimatedSection>
+        <AboutSectionTwo />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Testimonials />
+      </AnimatedSection>
       {/* <Pricing />
       <Blog /> */}
-
-      <Contact />
+      <AnimatedSection>
+        <Contact />
+      </AnimatedSection>
     </>
   );
 }
