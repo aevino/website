@@ -5,7 +5,7 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Priya Sharma",
+    name: "Ankit Sharma",
     designation: "CEO, TechFlow Solutions",
     content:
       "Aevino transformed our entire customer management system in just 8 weeks. What used to take our team hours now happens automatically. The AI-powered insights they built have increased our sales conversion by 40%. Their team didn't just deliver software - they delivered a competitive advantage.",
@@ -23,7 +23,7 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Sarah Mitchell",
+    name: "Mark Richard",
     designation: "Founder & CEO, CloudSync Pro",
     content:
       "As a startup, we needed a development partner who understood our vision and budget constraints. Aevino built our entire SaaS platform from scratch - backend, frontend, mobile app, and payment integration. We launched on time, under budget, and have scaled to 10,000+ users. They're not just vendors, they're true partners in our success.",
