@@ -23,9 +23,9 @@ const Stats = () => {
               Proven impact backed by real results
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-500">
-              Aevino Solutions empowers global businesses through scalable
+              {`Aevino Solutions empowers global businesses through scalable
               technology and deep industry expertise. Our numbers reflect the
-              trust we've earned and the value we deliver across every project.
+              trust we've earned and the value we deliver across every project.`}
             </p>
 
             <div className="grid grid-cols-2 gap-6 border-t border-gray-200 pt-6 dark:border-gray-700">
