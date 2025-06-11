@@ -29,10 +29,10 @@ const AboutPage = () => {
                     1. ACCEPTANCE OF TERMS
                   </h2>
                   <p className="text-body-color text-base leading-relaxed">
-                    By accessing or using Aevino Solutions Pvt Ltd's ("Company,"
+                    {`By accessing or using Aevino Solutions Pvt Ltd's ("Company,"
                     "we," "us," or "our") website or services, you ("Client,"
                     "you," or "your") agree to be bound by these Terms of
-                    Service ("Terms").
+                    Service ("Terms").`}
                   </p>
                 </section>
 
@@ -224,7 +224,7 @@ const AboutPage = () => {
                       </h3>
                       <ul className="text-body-color list-disc space-y-1 pl-6">
                         <li>
-                          Third-party licenses are client's responsibility
+                          {` Third-party licenses are client's responsibility`}
                         </li>
                         <li>We will identify third-party components used</li>
                       </ul>
@@ -332,8 +332,8 @@ const AboutPage = () => {
                       </h3>
                       <ul className="text-body-color list-disc space-y-1 pl-6">
                         <li>
-                          Limitations don't apply to gross negligence or willful
-                          misconduct
+                          {`Limitations don't apply to gross negligence or willful
+                          misconduct`}
                         </li>
                         <li>
                           Confidentiality breaches subject to separate damages
@@ -433,7 +433,7 @@ const AboutPage = () => {
                       </h3>
                       <ul className="text-body-color list-disc space-y-1 pl-6">
                         <li>
-                          Invalid provisions don't affect remainder of terms
+                          {`Invalid provisions don't affect remainder of terms`}
                         </li>
                         <li>
                           Unenforceable provisions will be modified to be

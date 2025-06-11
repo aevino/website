@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 const Stats = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const Stats = () => {
         <div className="mx-auto max-w-7xl gap-16 px-6 py-20 md:flex md:items-center md:justify-between lg:px-8">
           {/* Left: Image */}
           <div className="mb-10 md:mb-0 md:w-1/2">
-            <img
+            <Image
               src="/images/stats/image.avif" // Replace with actual path
               alt="People working on laptops"
               className="w-full rounded-xl object-cover shadow-lg"

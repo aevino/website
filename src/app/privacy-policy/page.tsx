@@ -29,11 +29,11 @@ const PrivacyPolicyPage = () => {
                     1. INTRODUCTION
                   </h2>
                   <p className="text-body-color text-base leading-relaxed">
-                    Aevino Solutions Pvt Ltd ("we," "our," or "us") respects
+                    {` Aevino Solutions Pvt Ltd ("we," "our," or "us") respects
                     your privacy and is committed to protecting your personal
                     information. This Privacy Policy explains how we collect,
                     use, disclose, and safeguard your information when you visit
-                    our website (aevino.com) or use our services.
+                    our website (aevino.com) or use our services.`}
                   </p>
                 </section>
 
@@ -206,7 +206,7 @@ const PrivacyPolicyPage = () => {
 
                 <section>
                   <h2 className="mb-4 text-2xl font-semibold text-black dark:text-white">
-                    10. CHILDREN'S PRIVACY
+                    {` 10. CHILDREN'S PRIVACY`}
                   </h2>
                   <p className="text-body-color text-base leading-relaxed">
                     Our services are not intended for individuals under 18. We

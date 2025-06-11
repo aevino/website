@@ -1,7 +1,8 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "aevion",
   "version": "2.2.0",
   "private": true,
+  "author": "Sandeep Kollabathula",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
