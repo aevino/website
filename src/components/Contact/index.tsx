@@ -126,6 +126,11 @@ const Contact = () => {
                     </button>
                   </div>
                 </div>
+                <input
+                  type="hidden"
+                  name="aevion-website-leads"
+                  value="contact"
+                />
               </form>
             </div>
           </div>
