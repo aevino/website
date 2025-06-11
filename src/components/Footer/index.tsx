@@ -129,15 +129,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
-                      className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
-                    >
-                      TOS
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
+                      href="/privacy-policy"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
                     >
                       Privacy Policy
@@ -145,10 +137,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/terms-and-conditions"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-4 inline-block text-base duration-300"
                     >
-                      Refund Policy
+                      Terms & Conditions
                     </Link>
                   </li>
                 </ul>
