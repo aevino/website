@@ -33,7 +33,7 @@ const Stats = () => {
             <div className="grid grid-cols-2 gap-6 border-t border-gray-200 pt-6 dark:border-gray-700">
               <div>
                 <p className="text-2xl font-bold text-gray-900 dark:text-white">
-                  120+
+                  12+
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
                   Projects Delivered
@@ -41,7 +41,7 @@ const Stats = () => {
               </div>
               <div>
                 <p className="text-2xl font-bold text-gray-900 dark:text-white">
-                  21+
+                  2+
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
                   Global Clients
@@ -57,7 +57,7 @@ const Stats = () => {
               </div>
               <div>
                 <p className="text-2xl font-bold text-gray-900 dark:text-white">
-                  5+
+                  3+
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-300">
                   Industries Served
