@@ -31,20 +31,20 @@ const AboutSectionTwo = () => {
                   Built for Your Success
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  We don't believe in one-size-fits-all solutions. At Aevino, we
+                  {`We don't believe in one-size-fits-all solutions. At Aevino, we
                   take time to understand your business, then build dedicated
                   teams with the exact skills needed to bring your vision to
-                  life.
+                  life.`}
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  Tomorrow's Technology, Today
+                  {`Tomorrow's Technology, Today`}
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  From AI integration to cloud-native architectures, we use the
+                  {`From AI integration to cloud-native architectures, we use the
                   latest technologies to create solutions that give you a
-                  competitive edge and adapt as your business evolves.
+                  competitive edge and adapt as your business evolves.`}
                 </p>
               </div>
               <div className="mb-1">
@@ -52,9 +52,9 @@ const AboutSectionTwo = () => {
                   Security You Can Trust
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  We implement bank-level security measures across all our
+                  {`We implement bank-level security measures across all our
                   solutions. Your data, your customers' information, and your
-                  business operations are protected by industry-leading security
+                  business operations are protected by industry-leading security`}
                   protocols.
                 </p>
               </div>
