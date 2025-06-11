@@ -114,7 +114,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full px-4">
                     <button
-                      className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark rounded-xs px-9 py-4 text-base font-medium text-white duration-300"
+                      className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark rounded-full px-9 py-4 text-base font-medium text-white duration-300"
                       type="submit"
                     >
                       Enquire Now
