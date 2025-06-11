@@ -36,13 +36,6 @@ const brandsData: Brand[] = [
     image: "/images/brands/tailadmin.svg",
     imageLight: "/images/brands/tailadmin-light.svg",
   },
-  {
-    id: 5,
-    name: "PlainAdmin",
-    href: "https://plainadmin.com",
-    image: "/images/brands/plainadmin.svg",
-    imageLight: "/images/brands/plainadmin-light.svg",
-  },
 ];
 
 export default brandsData;

@@ -8,8 +8,9 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Our Capabilities"
+            paragraph="
+At Aevino, we combine technical expertise with strategic thinking to deliver comprehensive technology solutions. Our capabilities span the full spectrum of digital transformation, ensuring your business stays ahead in today's competitive landscape."
             center
           />
 

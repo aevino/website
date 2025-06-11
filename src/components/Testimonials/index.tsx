@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Priya Sharma",
+    designation: "CEO, TechFlow Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Aevino transformed our entire customer management system in just 8 weeks. What used to take our team hours now happens automatically. The AI-powered insights they built have increased our sales conversion by 40%. Their team didn't just deliver software - they delivered a competitive advantage.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Rajesh Kumar",
+    designation: "CTO, Manufacturing Plus Industries",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We needed a partner who could handle both our legacy system integration and modern web development. Aevino's team seamlessly connected our 15-year-old ERP with a brand new customer portal. Zero downtime, flawless migration, and our customers love the new experience. Best investment we've made in years.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Sarah Mitchell",
+    designation: "Founder & CEO, CloudSync Pro",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As a startup, we needed a development partner who understood our vision and budget constraints. Aevino built our entire SaaS platform from scratch - backend, frontend, mobile app, and payment integration. We launched on time, under budget, and have scaled to 10,000+ users. They're not just vendors, they're true partners in our success.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Success Stories from Our Clients"
+          paragraph="Discover how businesses across industries have transformed their operations, accelerated growth, and achieved their digital goals with Aevino's technology solutions."
           center
         />
 
@@ -48,7 +48,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-      <div className="absolute right-0 top-5 z-[-1]">
+      <div className="absolute top-5 right-0 z-[-1]">
         <svg
           width="238"
           height="531"
